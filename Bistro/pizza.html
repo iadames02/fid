@@ -1,0 +1,93 @@
+<!DOCTYPE html >
+<html>
+</head>
+<body>
+<h1>
+
+<style>
+body {
+    background-color:lightseagreen;
+    color:darkred;
+    margin: 0 10%;
+    font-family: Courier;
+}
+fieldset {
+    color:darkslateblue;
+    text-align: left;
+    font-family: Verdana;
+    font-weight: normal;
+    border-bottom: 1px solid darkorchid;
+    margin-top: 30px;
+}
+legend {
+    color: yellow;
+    font-size: 1em;
+}
+label {
+    border-top: 1px solid #57b1dc;
+    text-align: left;
+    padding-top: 1em;
+}
+  </style>
+
+<body>
+
+<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+
+<fieldset>
+  <legend>Your Information</legend>
+<ul>
+  <li><label for="form-name"></label>Name: <input type="text" name="customername" id="form-name"></li>
+  <li><label for="form-address"></label>Address: <input type="text" address="customeraddress" id="form-address"></li>
+  <li><label for="form-phone"></label>Telephone Number: <input type="text" phone="customerphone" id="form-phone"></li>
+  <li><label for="form-email"></label>Email: <input type="text" email="customeremail" id="form-email"></li>
+  <li><label for="form-delivery"></label>Delivery instructions: <input type="text" delivery="delivery" id="form-delivery"></li>
+</ul>
+</fieldset>
+
+
+<h2>Design Your Dream Pizza:</h2>
+
+<p>Pizza specs<p>
+
+
+<fieldset>
+  <legend>Crust <em>(Choose one)</em>:</legend>
+<ul>
+  <li><input type="radio" name="crust" value="white"> Classic white</li>
+  <li><input type="radio" name="crust" value="multigrain"> Multigrain</li>
+  <li><input type="radio" name="crust" value="cheesestuffed"> Cheese-stuffed crust</li>
+  <li><input type="radio" name="crust" value="glutenfree"> Gluten-free</li>
+</ul>
+</fieldset>
+
+<fieldset>
+<legend>Toppings <em>(Choose as many as you want)</em>:</legend>
+<ul>
+  <li><input type="checkbox" name="toppings" value="redsauce"> Red sauce</li>
+  <li><input type="checkbox" name="toppings" value="whitesauce"> White sauce</li>
+  <li><input type="checkbox" name="toppings" value="mozzarella"> Mozzarella Cheese</li>
+  <li><input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</li>
+  <li><input type="checkbox" name="toppings" value="mushrooms"> Mushrooms</li>
+  <li><input type="checkbox" name="toppings" value="peppers"> Peppers</li>
+  <li><input type="checkbox" name="toppings" value="anchovies"> Anchovies</li>
+</ul>
+</fieldset>
+
+<fieldset>
+<p>Number</p>
+<p>How many pizzas:
+  <select name="pizzas"
+  size="1">
+    <option>1</option>
+  <-- more options here -->
+  </select>
+  </p>
+  </fieldset>
+
+
+</body>
+</html>
