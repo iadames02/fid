@@ -15,7 +15,7 @@ h2 {
     color: orange;
     font-size: 1em;
 }
-p:first-child {
+p:hover {
   color: blue;
 }
 footer {
