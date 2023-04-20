@@ -17,6 +17,9 @@ h2 {
     font-size: 1em;
     font-weight: medium;
 }
+p:first-child {
+  color: blue;
+}
 h3 {
     color: aquamarine;
     font-family: Courier;
