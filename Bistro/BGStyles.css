@@ -16,14 +16,9 @@ h2 {
     font-family: Verdana;
     font-size: 1em;
     font-weight: medium;
-}
-p:hover {
-  color: blue;
-}
 h3 {
-    color: aquamarine;
-    font-family: Courier;
-    font-size: 1em;
+    p:first-child {
+    color: blue;
 }
 h4 {
     color: lightsteelblue;
