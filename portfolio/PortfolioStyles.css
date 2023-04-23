@@ -8,9 +8,12 @@ body {
 a:link {
   color: ##006400;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Enriqueta');
+
 h1 {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family:"Enriqueta-Regular, serif";
     font-weight: normal;
     border-bottom: 1px solid lightsalmon;
     margin-top: 30px;
