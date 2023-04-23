@@ -21,6 +21,11 @@ h3 {
 small {
 	color: darkred;
 }
+
+/* unvisited link */
+a:link {
+  color: ##006400;
+}
 footer {
 	color:darkorchid;
 	font-size: small;
