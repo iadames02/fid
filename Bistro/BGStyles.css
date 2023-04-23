@@ -15,9 +15,12 @@ h1 {
     border-bottom: 1px solid darkorchid;
     margin-top: 30px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Enriqueta');
+
 h2 {
     color: darkorange;
-    font-family: Verdana;
+    font-family:"Enriqueta-Regular, serif";
     font-size: 1em;
     font-weight: medium;
 h3 {
