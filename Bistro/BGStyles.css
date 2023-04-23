@@ -24,6 +24,11 @@ h4 {
     color: lightsteelblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* unvisited link */
+a:link {
+  color: ##006400;
+}
 footer {
     border-top: 1px solid #57b1dc;
     text-align: center;
