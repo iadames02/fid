@@ -15,6 +15,11 @@ h2 {
     color: orange;
     font-size: 1em;
 }
+
+/* unvisited link */
+a:link {
+  color: ##006400;
+}
 footer {
     border-top: 1px solid indigo;
     text-align: center;
